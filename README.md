@@ -89,12 +89,6 @@ O sistema registra, entre outros, os seguintes campos:
 No código atual, o caminho da planilha está fixado manualmente. Exemplo:
 
 ```python
-caminho_diretorio = r"D:\clientes.xlsx"
-```
-
-Para publicar no GitHub e facilitar o uso em outros computadores, o ideal é alterar esse trecho para um caminho relativo, por exemplo:
-
-```python
 caminho_diretorio = "clientes.xlsx"
 ```
 
