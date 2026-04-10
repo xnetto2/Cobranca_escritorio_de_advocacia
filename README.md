@@ -89,7 +89,7 @@ O sistema registra, entre outros, os seguintes campos:
 No código atual, o caminho da planilha está fixado manualmente. Exemplo:
 
 ```python
-caminho_diretorio = r"D:\Documentos2\Curso de Analista de Dados\Curso de ExtensaoII\clientes.xlsx"
+caminho_diretorio = r"D:\clientes.xlsx"
 ```
 
 Para publicar no GitHub e facilitar o uso em outros computadores, o ideal é alterar esse trecho para um caminho relativo, por exemplo:
@@ -106,7 +106,6 @@ No código atual, as parcelas são geradas com incrementos de 30 dias. Isso é u
 
 ## Melhorias futuras sugeridas
 
-- Substituir o caminho fixo da planilha por caminho relativo
 - Criar interface gráfica mais completa
 - Validar melhor entradas numéricas e datas
 - Tratar erros de digitação no cadastro
@@ -114,7 +113,3 @@ No código atual, as parcelas são geradas com incrementos de 30 dias. Isso é u
 - Permitir edição e exclusão de clientes
 - Adicionar relatórios financeiros
 - Gerar executável com PyInstaller
-
-## Licença
-
-Defina a licença de sua preferência antes de publicar publicamente o projeto.
