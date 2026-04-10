@@ -1,0 +1,46 @@
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Arquivos de build / distribuição
+build/
+dist/
+*.spec
+
+# PyInstaller
+*.toc
+*.pyz
+*.pkg
+warn-*.txt
+xref-*.html
+
+# Executáveis e binários
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Arquivos temporários do sistema
+.DS_Store
+Thumbs.db
+
+# Logs e bancos auxiliares
+*.log
+PyWhatKit_DB.txt
+
+# Dados locais sensíveis ou operacionais
+clientes.xlsx
+Controle financeiro.xlsx
+
+# Arquivos de configuração local
+.env
+.env.*
